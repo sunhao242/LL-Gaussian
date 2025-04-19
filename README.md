@@ -7,5 +7,5 @@ Hao Sun<sup>1,2</sup>, [Fenggen Yu](https://fenggenyu.github.io/)<sup>4</sup>, H
 <sup>1</sup>Zhejiang Lab, <sup>2</sup>University of Chinese Academy of Sciences, <sup>3</sup>Zhejiang University, <sup>4</sup>Simon Fraser University, <sup>5</sup>Hangzhou Dianzi University.
 
 
-The official implementation of LL-Gaussian.
+The code of LL-Gaussian is coming soon.
 
