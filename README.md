@@ -17,8 +17,7 @@ Hao Sun<sup>1,2</sup>, [Fenggen Yu](https://fenggenyu.github.io/)<sup>4</sup>, H
 
 ---
 #### 🧱 Code
-
-🚧 *The code will be released soon. Stay tuned!*
+ *The code will be released soon. Stay tuned!*
 
 ---
 
