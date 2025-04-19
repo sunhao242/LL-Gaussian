@@ -1,6 +1,6 @@
 # LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis
 
-[[`Project Page`](https://sunhao5871.github.io/LL-Gaussian.github.io/)] [[`arXiv`](https://arxiv.org/abs/2504.10331)] [[`Dataset`](https://github.com/sunhao5871/LL-Gaussian)]
+[[`Project Page`](https://sunhao242.github.io/LL-Gaussian_web.github.io/)] [[`arXiv`](https://arxiv.org/abs/2504.10331)] [[`Dataset`](https://github.com/sunhao242/LL-Gaussian)]
 
 LL-Gaussian is a novel framework for low-light scene reconstruction and novel view synthesis. It leverages 3D Gaussian Splatting with specialized modules to enhance rendering quality in extreme lighting conditions.
  
