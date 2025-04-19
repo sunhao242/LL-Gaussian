@@ -27,8 +27,8 @@ If you find our work useful, please consider citing us:
 
 ```bibtex
 @article{sun2025ll,
-  title={LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis},
   author={Sun, Hao and Yu, Fenggen and Xu, Huiyao and Zhang, Tao and Zou, Changqing},
+  title={LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis},
   journal={arXiv preprint arXiv:2504.10331},
-  year={2025}
+  year={2025},
 }
