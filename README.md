@@ -13,7 +13,7 @@ Hao Sun<sup>1,2</sup>, [Fenggen Yu](https://fenggenyu.github.io/)<sup>4</sup>, H
 #### 📌 Highlights
 - 🌙 **Low-Light Gaussian Initialization**: Robust 3D Gaussian initialization without reliance on SfM tools like COLMAP.
 - 🔀 **Gaussian Decomposition**: Dual-branch modeling of intrinsic vs. transient scene components.
-- 🎥 **View Synthesis in the Dark**: State-of-the-art rendering quality under low-light and nighttime conditions.
+- 🎥 **Novel View Synthesis in the Dark**: State-of-the-art rendering quality under low-light and nighttime conditions.
 
 ---
 #### 🧱 Code
