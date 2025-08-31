@@ -10,6 +10,12 @@ Hao Sun<sup>1,2</sup>, [Fenggen Yu](https://fenggenyu.github.io/)<sup>4</sup>, H
 <sup>1</sup>Zhejiang Lab <sup>2</sup>University of Chinese Academy of Sciences <sup>3</sup>State Key Lab of CAD&CG, Zhejiang University  
 <sup>4</sup>Simon Fraser University <sup>5</sup>Hangzhou Dianzi University
 
+## 📋 TODO
+
+- [ ] Provide LLRS dataset.
+- [ ] Provide inference code.
+- [ ] Provide training code.
+
 ## 📌 Highlights
 - 🌙 **Low-Light Gaussian Initialization**: Robust 3D Gaussian initialization without reliance on SfM tools like COLMAP.
 - 🔀 **Gaussian Decomposition**: Dual-branch modeling of intrinsic vs. transient scene components.
