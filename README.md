@@ -30,6 +30,15 @@ Hao Sun<sup>1,2</sup>, [Fenggen Yu](https://fenggenyu.github.io/)<sup>4</sup>, H
 ## 🧪 Citation
 
 If you find our work useful, please consider citing us:
+```bibtex
+@inproceedings{sun2025ll,
+  title={LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis},
+  author={Sun, Hao and Yu, Fenggen and Xu, Huiyao and Zhang, Tao and Zou, Changqing},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={4261--4270},
+  year={2025}
+}
+```
 
 ```bibtex
 @article{sun2025ll,
@@ -38,3 +47,4 @@ If you find our work useful, please consider citing us:
   journal={arXiv preprint arXiv:2504.10331},
   year={2025},
 }
+```
