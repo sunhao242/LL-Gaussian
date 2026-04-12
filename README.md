@@ -45,7 +45,7 @@ Download the [LLRS-sRGB](https://drive.google.com/file/d/1Y5lhAEXFN0lZDN-ITPPVtj
 
 ## Quickly Inference 
 
-Download checkpoint from [backup](https://d下·rive.google.com/file/d/1Mf7pG5Lm5N3ybfpgNuvy9PMQgrdgaMVN/view?usp=drive_link) to ./backup. Here is the inference command:
+Download checkpoint from [backup](https://drive.google.com/file/d/1Mf7pG5Lm5N3ybfpgNuvy9PMQgrdgaMVN/view?usp=drive_link) to ./backup. Here is the inference command:
 
 ```bash
 python render.py -m ./backup/LLRS-sRGB/{scene_name}/{XXXX-XX-XX_XX:XX:XX} --dataset_path ./dataset/LLRS-sRGB/{scene_name} --skip_train
