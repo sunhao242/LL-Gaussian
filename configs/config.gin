@@ -1,0 +1,17 @@
+Config.config = './StableSR/configs/stableSRNew/v2-finetune_text_T_512.yaml'
+Config.ckpt = './StableSR/stablesr_turbo.ckpt'
+Config.ddpm_steps = 4
+Config.dec_w = 0.75
+Config.seed = 42
+Config.n_samples = 1
+Config.vqgan_ckpt = './StableSR/vqgan_cfw_00011.ckpt'
+Config.colorfix_type = 'adain'
+Config.precision = "autocast"
+Config.tile_overlap = 32
+Config.upscale = 1.0
+Config.vqgantile_stride = 1000
+Config.vqgantile_size = 1280
+Config.input_size = 512
+Config.n_iter = 1
+Config.C = 4
+Config.f = 8
