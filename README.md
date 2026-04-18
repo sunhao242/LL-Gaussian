@@ -1,11 +1,3 @@
-<!-- # LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis （Accepted by ACM MM 2025）
-
-[[`Project Page`](https://sunhao242.github.io/LL-Gaussian_web.github.io/)] [[`Paper`](https://dl.acm.org/doi/pdf/10.1145/3746027.3755375)] [[`arXiv`](https://arxiv.org/abs/2504.10331)]  [[`Dataset`](https://drive.google.com/file/d/1Y5lhAEXFN0lZDN-ITPPVtjm42-jKk9JR/view?usp=sharing)]
- -->
-
-
-
-
 <h1 align='center'>LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis</h1>
 <div align='center'>
     <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Hao Sun</a><sup>1*</sup> 
@@ -33,13 +25,12 @@
 [![Dataset](https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=GoogleDrive&color=green)](https://img.shields.io/static/v1?label=Dataset&message=GoogleDrive&color=yellow&logo=google)
 
 
------
-
 </div>
 <p align="center">
-  <img src="assets/overview.png"  height=400>
+  <img src="assets/teaser.png"  height=400>
 </p>
 
+-----
 
 
 ## 🔥 News
