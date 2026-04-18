@@ -83,6 +83,21 @@ When test-view rendering runs successfully, the results are written to:
       gt/
       per_view_count.json
 ```
+
+
+## Citation
+
+If you find our work helpful, please consider citing:
+
+```bibtex
+@inproceedings{sun2025ll,
+  title={Ll-gaussian: Low-light scene reconstruction and enhancement via gaussian splatting for novel view synthesis},
+  author={Sun, Hao and Yu, Fenggen and Xu, Huiyao and Zhang, Tao and Zou, Changqing},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={4261--4270},
+  year={2025}
+}
+```
 ## LICENSE
 
 Please follow the LICENSE of [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting).
