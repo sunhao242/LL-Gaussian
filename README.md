@@ -1,27 +1,70 @@
-# LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis （Accepted by ACM MM 2025）
+<!-- # LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis （Accepted by ACM MM 2025）
 
 [[`Project Page`](https://sunhao242.github.io/LL-Gaussian_web.github.io/)] [[`Paper`](https://dl.acm.org/doi/pdf/10.1145/3746027.3755375)] [[`arXiv`](https://arxiv.org/abs/2504.10331)]  [[`Dataset`](https://drive.google.com/file/d/1Y5lhAEXFN0lZDN-ITPPVtjm42-jKk9JR/view?usp=sharing)]
+ -->
 
-## 🚀 Overview
-LL-Gaussian is a novel framework for low-light scene reconstruction and novel view synthesis. It leverages 3D Gaussian Splatting with specialized modules to enhance rendering quality in extreme lighting conditions.
- 
-## 👨‍💻 Authors
 
-Hao Sun<sup>1,2</sup>, [Fenggen Yu](https://fenggenyu.github.io/)<sup>4</sup>, Huiyao Xu<sup>3</sup>, Tao Zhang<sup>5</sup>, [Changqing Zou](https://changqingzou.weebly.com/)<sup>1,3</sup>  
-<sup>1</sup>Zhejiang Lab <sup>2</sup>University of Chinese Academy of Sciences <sup>3</sup>State Key Lab of CAD&CG, Zhejiang University  
-<sup>4</sup>Simon Fraser University <sup>5</sup>Hangzhou Dianzi University
 
+
+<h1 align='center'>LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis</h1>
+<div align='center'>
+    <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Hao Sun</a><sup>1*</sup> 
+    <a href='https://fenggenyu.github.io/' target='_blank'>Fenggen Yu</a><sup>1*</sup> 
+    <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Huiyao Xu</a><sup>1*</sup> 
+    <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Tao Zhang</a><sup>1</sup> 
+    <a href='https://changqingzou.weebly.com/' target='_blank'>Changqing Zou†</a><sup>1</sup> 
+</div>
+
+<div align='center'>
+    <sup>1</sup>Zhejiang Lab  <sup>2</sup>University of Chinese Academy of Sciences  <sup>3</sup>State Key Lab of CAD&CG, Zhejiang University <sup>4</sup>Simon Fraser University <sup>5</sup>Hangzhou Dianzi University
+</div>
+<div align='center'>
+  †Corresponding Author
+</div>
+<div align="center">
+   <strong>ACM Multimedia 2025</strong>
+</div>
+<br>
+<div align="center">
+
+[![Page](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-Demo-00bfff)](https://sunhao242.github.io/LL-Gaussian_web.github.io/)
+[![Paper](https://img.shields.io/static/v1?label=Paper&message=PDF&color=red&logo=acm)](https://dl.acm.org/doi/pdf/10.1145/3746027.3755375)
+[![Arxiv](https://img.shields.io/static/v1?label=Paper&message=PDF&color=red&logo=arxiv)](https://dl.acm.org/doi/pdf/10.1145/3746027.3755375)
+[![Dataset](https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&message=GoogleDrive&color=green)](https://img.shields.io/static/v1?label=Dataset&message=GoogleDrive&color=yellow&logo=google)
+
+
+-----
+
+</div>
+<p align="center">
+  <img src="assets/overview.png"  height=400>
+</p>
+
+
+
+## 🔥 News
+
++ [2025.04.19] 📢 Training code is released.
++ [2025.04.13] 🔭 Inference code is released.
++ [2025.10.22] 🎆 LLRS dataset is released.
++ [2025.07.06] 🎉 LL-Gaussian is accepted by ACM Multimedia 2025!
++ [2025.04.19] 🚀 Repo is created!
+
+🤗 If you find LL-Gaussian useful for your projects, a ⭐ would be greatly appreciated. Thanks! 🤗
+
+
+
+## 📌 TODO
+
+- [x] Release LLRS dataset.
+- [x] Release inference code.
+- [x] Release training code.
 
 ## ✨ Key Features
 - 🌙 **Low-Light Gaussian Initialization**: Robust 3D Gaussian initialization without reliance on SfM tools like COLMAP.
 - 🔀 **Gaussian Decomposition**: Dual-branch modeling of intrinsic vs. transient scene components.
 - 🎥 **Novel View Synthesis in the Dark**: State-of-the-art rendering quality under low-light and nighttime conditions.
 
-## 📌 TODO
-
-- [x] Provide LLRS dataset.
-- [x] Provide inference code.
-- [x] Provide training code.
 
 ---
 
@@ -65,7 +108,6 @@ Place it under:
 ```bash
 ./backup
 ```
-
 
 ### 2. Run inference
 
