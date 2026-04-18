@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ./dataset/LLRS-sRGB
 ```
 
-👉 Download [Link](https://drive.google.com/file/d/1Y5lhAEXFN0lZDN-ITPPVtjm42-jKk9JR/view?usp=sharing).
+👉 Download from [Link](https://drive.google.com/file/d/1Y5lhAEXFN0lZDN-ITPPVtjm42-jKk9JR/view?usp=sharing).
 
 
 
@@ -78,15 +78,18 @@ python render.py -m ./backup/LLRS-sRGB/{scene_name}/{XXXX-XX-XX_XX:XX:XX} --data
 ## 🏋️ Training
 
 Step 1: Download StableSR checkpoints
+
 ```bash
 ./checkpoints/
   ├── vqgan_cfw_00011.ckpt
   ├── stablesr_turbo.ckpt
 ```
+
   - Download autoencoder from [Huggingface](https://huggingface.co/Iceclear/StableSR/resolve/main/vqgan_cfw_00011.ckpt) 
   - Download StableSR-Turbo from [Huggingface](https://huggingface.co/Iceclear/StableSR/resolve/main/stablesr_turbo.ckpt) 
 
 Step 2: Download the Depth Anything V2 
+
 Download [Depth-Anything-V2-Large](Depth-Anything-V2-Large) to:
 
 ```bash
@@ -115,8 +118,6 @@ bash scripts/single_train.sh
 
 
 ## 📂 Output Structure
-
-When test-view rendering runs successfully, the results are written to:
 
 ```text
 <model_path>/
