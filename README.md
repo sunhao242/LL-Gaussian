@@ -35,8 +35,8 @@
 
 ## 🔥 News
 
-+ [2025.04.19] 📢 Training code is released.
-+ [2025.04.13] 🔭 Inference code is released.
++ [2026.04.19] 📢 Training code is released.
++ [2026.04.13] 🔭 Inference code is released.
 + [2025.10.22] 🎆 LLRS dataset is released.
 + [2025.07.06] 🎉 LL-Gaussian is accepted by ACM Multimedia 2025!
 + [2025.04.19] 🚀 Repo is created!
