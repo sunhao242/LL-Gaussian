@@ -1,10 +1,10 @@
 <h1 align='center'>LL-Gaussian: Low-Light Scene Reconstruction and Enhancement via Gaussian Splatting for Novel View Synthesis</h1>
 <div align='center'>
-    <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Hao Sun</a><sup>1*</sup> 
-    <a href='https://fenggenyu.github.io/' target='_blank'>Fenggen Yu</a><sup>1*</sup> 
-    <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Huiyao Xu</a><sup>1*</sup> 
-    <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Tao Zhang</a><sup>1</sup> 
-    <a href='https://changqingzou.weebly.com/' target='_blank'>Changqing Zou†</a><sup>1</sup> 
+    <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Hao Sun</a><sup>1,2</sup> 
+    <a href='https://fenggenyu.github.io/' target='_blank'>Fenggen Yu</a><sup>4</sup> 
+    <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Huiyao Xu</a><sup>3</sup> 
+    <a href='https://github.com/sunhao242/LL-Gaussian' target='_blank'>Tao Zhang</a><sup>5</sup> 
+    <a href='https://changqingzou.weebly.com/' target='_blank'>Changqing Zou†</a><sup>1,3</sup> 
 </div>
 
 <div align='center'>
