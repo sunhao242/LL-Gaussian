@@ -14,7 +14,7 @@ Hao Sun<sup>1,2</sup>, [Fenggen Yu](https://fenggenyu.github.io/)<sup>4</sup>, H
 
 - [x] Provide LLRS dataset.
 - [x] Provide inference code.
-- [ ] Provide training code.
+- [x] Provide training code.
 
 ## 📌 Highlights
 - 🌙 **Low-Light Gaussian Initialization**: Robust 3D Gaussian initialization without reliance on SfM tools like COLMAP.
@@ -27,7 +27,7 @@ Hao Sun<sup>1,2</sup>, [Fenggen Yu](https://fenggenyu.github.io/)<sup>4</sup>, H
 
 ```bash
 # git clone this repository
-git clone https://github.com/sunhao242/LL-Gaussian.git
+git clone --recursive https://github.com/sunhao242/LL-Gaussian.git 
 cd LL-Gaussian
 
 # create an environment 
@@ -36,12 +36,25 @@ conda activate llgaussian
 pip install -r requirements.txt
 ```
 
-## Data
+## Download the Dataset
 
-Download the [LLRS-sRGB](https://drive.google.com/file/d/1Y5lhAEXFN0lZDN-ITPPVtjm42-jKk9JR/view?usp=sharing) dataset to ./dataset.
+- Download the [LLRS-sRGB](https://drive.google.com/file/d/1Y5lhAEXFN0lZDN-ITPPVtjm42-jKk9JR/view?usp=sharing) dataset to ./dataset.
 
-## Training
+## Train
 
+
+Step 1: Download the pretrained image diffusion model, we take StableSR, a image restoration model, as default (you can also try other models).
+  - Download the autoencoder pretrained model from [Huggingface](https://huggingface.co/Iceclear/StableSR/resolve/main/vqgan_cfw_00011.ckpt) to ./checkpoints
+  - Download the pretrained StableSR-Turbo from [Huggingface](https://huggingface.co/Iceclear/StableSR/resolve/main/stablesr_turbo.ckpt) to ./checkpoints
+
+Step 2: Dowload the Depth Anything V2 Model (Depth-Anything-V2-Large) from [Huggingface](Depth-Anything-V2-Large) to ./checkpoints.
+
+Step 3: Run training command:
+
+```bash
+# git clone this repository
+bash scripts/single_train.sh
+```
 
 ## Quickly Inference 
 

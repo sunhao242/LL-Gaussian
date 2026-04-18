@@ -1,10 +1,10 @@
-Config.config = './StableSR/configs/stableSRNew/v2-finetune_text_T_512.yaml'
-Config.ckpt = './StableSR/stablesr_turbo.ckpt'
+Config.config = './submodules/StableSR/configs/stableSRNew/v2-finetune_text_T_512.yaml'
+Config.ckpt = './checkpoints/stablesr_turbo.ckpt'
 Config.ddpm_steps = 4
 Config.dec_w = 0.75
 Config.seed = 42
 Config.n_samples = 1
-Config.vqgan_ckpt = './StableSR/vqgan_cfw_00011.ckpt'
+Config.vqgan_ckpt = './checkpoints/vqgan_cfw_00011.ckpt'
 Config.colorfix_type = 'adain'
 Config.precision = "autocast"
 Config.tile_overlap = 32

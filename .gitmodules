@@ -1,0 +1,6 @@
+[submodule "submodules/Depth-Anything-V2"]
+	path = submodules/Depth-Anything-V2
+	url = https://github.com/DepthAnything/Depth-Anything-V2.git
+[submodule "submodules/StableSR"]
+	path = submodules/StableSR
+	url = https://github.com/IceClear/StableSR.git
