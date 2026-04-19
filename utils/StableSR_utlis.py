@@ -172,7 +172,7 @@ def get_SRModel():
 
 	model.configs = config
 
-	vqgan_config = OmegaConf.load("./StableSR/configs/autoencoder/autoencoder_kl_64x64x4_resi.yaml")
+	vqgan_config = OmegaConf.load("./submodules/StableSR/configs/autoencoder/autoencoder_kl_64x64x4_resi.yaml")
 	vq_model = load_model_from_config(vqgan_config, opt.vqgan_ckpt)
 	vq_model = vq_model.to(device)
 	vq_model.decoder.fusion_w = opt.dec_w
