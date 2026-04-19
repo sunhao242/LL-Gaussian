@@ -10,6 +10,7 @@
 #
 
 import os
+import torch
 import random
 import json
 from utils.system_utils import searchForMaxIteration
@@ -130,7 +131,7 @@ class Scene:
             import glob
             gt_path = glob.glob(gt_path)[0]  # 获取匹配的第一个文件路径
             gt_image = cv2.imread(gt_path)
-            depth_piror = self.depth_piror_model.infer_image(gt_image).unsqueeze(0)
+            depth_piror = torch.from_numpy(self.depth_piror_model.infer_image(gt_image)).cuda().unsqueeze(0)
             idx = camera.uid
             depth_piror_dict[idx] = minmax_normalize(depth_piror)
             # depth_piror_dict[idx] = depth_piror
