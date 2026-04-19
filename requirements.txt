@@ -2,6 +2,7 @@
 -e ./submodules/diff-gaussian-rasterization-fast  
 -e ./submodules/diff-gaussian-rasterization-residual
 -e ./submodules/simple-knn 
+-e git+https://github.com/openai/CLIP.git@main#egg=clip
 audtorch==0.6.4
 gin-config==0.5.0
 jaxtyping==0.3.7
@@ -17,6 +18,7 @@ torch_scatter==2.1.2
 torchaudio==2.4.0
 torchmetrics==0.6.0
 torchvision==0.19.0
+transformers==5.5.4
 tqdm==4.67.3
 triton==3.0.0
 wandb==0.25.1
@@ -24,4 +26,6 @@ imageio==2.37.3
 einops==0.8.2
 laspy==2.7.0
 colorama==0.4.6
+open-clip-torch==2.0.2
 scipy==1.15.3
+
