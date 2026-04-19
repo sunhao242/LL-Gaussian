@@ -11,10 +11,10 @@
     <sup>1</sup>Zhejiang Lab  <sup>2</sup>University of Chinese Academy of Sciences  <sup>3</sup>State Key Lab of CAD&CG, Zhejiang University <sup>4</sup>Simon Fraser University <sup>5</sup>Hangzhou Dianzi University
 </div>
 <div align='center'>
-  †Corresponding Author
+    †Corresponding Author
 </div>
 <div align="center">
-   <strong>ACM Multimedia 2025</strong>
+    <strong>ACM Multimedia 2025</strong>
 </div>
 <br>
 <div align="center">
