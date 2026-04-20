@@ -124,7 +124,7 @@ Step 1: Download StableSR checkpoints
 
 Step 2: Download the Depth Anything V2 
 
-Download [Depth-Anything-V2-Large](Depth-Anything-V2-Large) to:
+Download [Depth-Anything-V2-Large](https://huggingface.co/depth-anything/Depth-Anything-V2-Large/resolve/main/depth_anything_v2_vitl.pth?download=true) to:
 
 ```bash
 ./checkpoints/
