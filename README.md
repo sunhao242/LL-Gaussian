@@ -50,6 +50,7 @@
 - [x] Release LLRS dataset.
 - [x] Release inference code.
 - [x] Release training code.
+- [ ] Data preparation.
 
 ## ✨ Key Features
 - 🌙 **Low-Light Gaussian Initialization**: Robust 3D Gaussian initialization without reliance on SfM tools like COLMAP.
