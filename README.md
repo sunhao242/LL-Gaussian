@@ -21,7 +21,7 @@
 
 [![Page](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-Demo-00bfff)](https://sunhao242.github.io/LL-Gaussian_web.github.io/)
 [![Paper](https://img.shields.io/static/v1?label=Paper&message=PDF&color=red&logo=acm)](https://dl.acm.org/doi/pdf/10.1145/3746027.3755375)
-[![Arxiv](https://img.shields.io/static/v1?label=Arxiv&message=PDF&color=red&logo=arxiv)](https://dl.acm.org/doi/pdf/10.1145/3746027.3755375)
+[![Arxiv](https://img.shields.io/static/v1?label=Arxiv&message=PDF&color=red&logo=arxiv)](https://arxiv.org/abs/2504.10331)
 [![Dataset](https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Dataset&message=GoogleDrive&color=green)](https://img.shields.io/static/v1?label=Dataset&message=GoogleDrive&color=yellow&logo=google)
 
 
