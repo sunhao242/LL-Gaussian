@@ -88,26 +88,40 @@ pip install -r requirements.txt
 
 👉 Download from [Link](https://drive.google.com/file/d/1Y5lhAEXFN0lZDN-ITPPVtjm42-jKk9JR/view?usp=sharing).
 
+- Download the LOM dataset（preprocessed） and place it under:
+```bash
+./dataset/LOM
+```
 
+👉 Download from [Link](https://drive.google.com/file/d/1sGsMdmByNf8i7ZAYhAAGmUJMcWieww5J/view?usp=sharing).
 
 ## ⚡ Quick Inference 
 
 ### 1. Download pretrained checkpoint
 
-Download checkpoint from [backup](https://drive.google.com/file/d/1Mf7pG5Lm5N3ybfpgNuvy9PMQgrdgaMVN/view?usp=drive_link).
+Download LLRS-sRGB dataset checkpoint from [backup](https://drive.google.com/file/d/1Mf7pG5Lm5N3ybfpgNuvy9PMQgrdgaMVN/view?usp=drive_link).
 Place it under:
 
 ```bash
-./backup
+./backup//LLRS-sRGB
+```
+
+Download LOM dataset checkpoint from [backup_1](https://drive.google.com/file/d/1t48-ZD3OCedWZmsKGXqY3H5GF-0lL4Nz/view?usp=sharing).
+Place it under:
+
+```bash
+./backup/LOM
 ```
 
 ### 2. Run inference
 
 
 ```bash
+# for LLRS-sRGB dataset
 python render.py -m ./backup/LLRS-sRGB/{scene_name}/{XXXX-XX-XX_XX:XX:XX} --dataset_path ./dataset/LLRS-sRGB/{scene_name} --skip_train
+# for LOM dataset
+python render.py -m ./backup/LOM/{scene_name}/{XXXX-XX-XX_XX:XX:XX} --dataset_path ./dataset/LOM/{scene_name} --skip_train
 ```
-
 
 ## 🏋️ Training
 
