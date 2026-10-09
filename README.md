@@ -106,7 +106,7 @@ Place it under:
 ./backup//LLRS-sRGB
 ```
 
-Download LOM dataset checkpoint from [backup_1](https://drive.google.com/file/d/1t48-ZD3OCedWZmsKGXqY3H5GF-0lL4Nz/view?usp=sharing).
+Download LOM dataset checkpoint from [backup_1](https://drive.google.com/file/d/17-3yf7QSFLo-uWlg43E7d8tsTm-yLrQl/view?usp=sharing).
 Place it under:
 
 ```bash
