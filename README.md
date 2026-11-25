@@ -103,7 +103,7 @@ Download LLRS-sRGB dataset checkpoint from [backup](https://drive.google.com/fil
 Place it under:
 
 ```bash
-./backup//LLRS-sRGB
+./backup/LLRS-sRGB
 ```
 
 Download LOM dataset checkpoint from [backup_1](https://drive.google.com/file/d/17-3yf7QSFLo-uWlg43E7d8tsTm-yLrQl/view?usp=sharing).
